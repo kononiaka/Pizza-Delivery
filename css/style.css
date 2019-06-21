@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Montserrat Light'), local('Montserrat-Light'),
+         url('../fonts/Montserrat/montserrat-v12-latin-300.woff2') format('woff2'), 
+         url('../fonts/Montserrat/montserrat-v12-latin-300.woff') format('woff'); 
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/Montserrat/montserrat-v12-latin-regular.woff2') format('woff2'), 
+         url('../fonts/Montserrat/montserrat-v12-latin-regular.woff') format('woff'); 
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/Montserrat/montserrat-v12-latin-700.woff2') format('woff2'), 
+         url('../fonts/Montserrat/montserrat-v12-latin-700.woff') format('woff'); 
+}
+body{
+    min-width: 320px;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #34393d;
+}
+.main-header-text {
+    color:  #ffffff;
+}
+.drop-menu-item {
+    color:  #444444;
+    box-shadow: 0.5px 0.866px 3px rgba(0,0,0,0.35);
+    cursor: pointer;
+}
+.fas.fa-bars{
+    color: #fff;
+}
+/*main section starts*/
+.main-screen {
+    background-size: cover;
+}
+.nav-btn {
+    width: 40px;
+    height: 37px;
+    background-color: #1a2025;
+}
+.main-title{
+    color:  #ffffff;
+    font-weight: 700;
+}
+.sub-title{
+    color:  #a6d6e0;
+    font-weight: 700;
+}
+.menu-description{
+    margin-bottom: 25px;
+    font-weight: 700;
+    color:  #fff;
+}
+.menu-description-item{
+    display: flex;
+}
+.menu-description-block{
+    background-color: #acd9ad;
+    text-align: center;
+    width: 100px;
+}
+/*main section ends*/
+.menu-item-img{
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+.main-menu{
+    color:  #3f4043;
+    margin-bottom: 25px;
+    position: relative;
+}
+.main-menu-title{
+    text-transform: uppercase;
+}
+.main-menu-subtitle{
+    color:  #cbcdce;
+}
+.main-menu-header{
+    background-color: #3f4043;
+    color:  #acd9ad;
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 29px;
+}
+.menu-header-title{ 
+    justify-content: space-between;
+    text-transform: uppercase;
+    color:  #3f4043;
+}
+.main-menu-logo{
+    display: none;
+}
+.fas {
+    margin-left: 10px;
+    color: #acd9ad;
+}
+.menu-header-description{
+    color:  #3f4043;
+    text-align: justify;
+}
+.green{
+    color: #fff;
+    background-color: #acd9ad;
+}
+.footer{
+    text-align: center;
+}
